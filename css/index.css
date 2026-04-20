@@ -1,3 +1,7 @@
+@import url('components//carta.css');
+@import url('components/boton.css');
+@import url('components/resultado.css');
+
 *{
     margin: 0;  
     padding: 0;
