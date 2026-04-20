@@ -18,7 +18,7 @@ body{
     flex-direction: column;
     gap: 20px;
     background-color: rgb(255, 255, 255);
-    margin: 30px 30%;
+    margin: 30px 50px;
     padding: 40px;
     border-radius: 10px;
     border-color: black;
@@ -27,14 +27,16 @@ body{
 }
 
 .titulo{
-    font-size: 30px;
+    font-size: 40px;
     color: black;
     font-weight: bold;
+    margin: 10px;
 }
 
 .subtitulo{
     font-size: 15px; 
     color: black;
+    margin: 10px;
 
 }
 
@@ -44,6 +46,7 @@ body{
     gap:18px;
     background-color: rgba(117, 117, 117, 0.493);
     padding: 20px;
+    margin: 10px;
     border-radius: 10px;
     border-color: black;
     border-width: 2px;
@@ -72,8 +75,8 @@ body{
     display: flex;
     flex-direction: column;
     gap: 10px;
-    background-color: rgba(117, 117, 117, 0.493);
     padding: 20px;
+    margin: 10px;
     border-radius: 10px;
     border-color: black;
     border-width: 2px;
