@@ -16,3 +16,13 @@
     font-weight: bold;
     color: #4a90e2;
 }
+
+.resultados.activo {
+    border-color: #4a90e2;
+}
+
+.paso {
+    font-size: 15px;
+    color: #333;
+    margin: 8px 0;
+}
