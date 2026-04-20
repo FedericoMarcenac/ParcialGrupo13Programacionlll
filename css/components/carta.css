@@ -22,3 +22,39 @@
 .carta input:focus {
     border-color: #4a90e2;
 }
+
+.input-fila {
+    display: flex;
+    gap: 8px;
+    align-items: stretch;
+}
+
+.input-fila .input-descuento {
+    flex: 1;
+}
+
+.btn-eliminar {
+    padding: 0 12px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f5f5f5;
+    font-size: 16px;
+    line-height: 1;
+    cursor: pointer;
+}
+
+.btn-eliminar:hover {
+    background-color: #e74c3c;
+    color: white;
+    border-color: #e74c3c;
+}
+
+.carta input.input-error {
+    border-color: #e74c3c;
+}
+
+.error-campo {
+    color: #e74c3c;
+    font-size: 13px;
+    min-height: 1em;
+}
