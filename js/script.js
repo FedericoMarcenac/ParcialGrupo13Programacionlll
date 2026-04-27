@@ -56,6 +56,7 @@ function calcular() {
     return;
   }
 
+
   const inputs = contenedor.querySelectorAll(".input-descuento");
   const descuentos = [];
   let hayError = false;
@@ -64,8 +65,8 @@ function calcular() {
     const valor = parseFloat(input.value);
     const span = input.closest(".carta").querySelector(".error-campo");
 
-    if (!input.value || isNaN(valor) || valor < 1 || valor > 90) {
-      span.textContent = "El descuento debe estar entre 1% y 90%.";
+    if (!input.value || isNaN(valor) || valor < 1 || valor > 99) {
+      span.textContent = "El descuento debe estar entre 1% y 99%.";
       input.classList.add("input-error");
       hayError = true;
     } else {
