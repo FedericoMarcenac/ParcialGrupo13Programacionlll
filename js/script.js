@@ -1,3 +1,4 @@
+// Lógica de cálculo de descuentos encadenados - Gonzalo
 const inputPrecio = document.getElementById("precio");
 const contenedor = document.getElementById("contenedor-descuentos");
 const btnAgregar = document.getElementById("BTNagregar");
