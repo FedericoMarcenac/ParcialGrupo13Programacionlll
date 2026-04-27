@@ -1,0 +1,84 @@
+@import url('components/carta.css');
+@import url('components/boton.css');
+@import url('components/resultados.css');
+
+*{
+    margin: 0;  
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(64, 64, 243);
+}
+
+.calculadoraContenedor{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    background-color: rgb(255, 255, 255);
+    margin: 30px 50px;
+    padding: 40px;
+    border-radius: 10px;
+    border-color: black;
+    border-width: 2px;
+    border-style: solid;
+}
+
+.titulo{
+    font-size: 40px;
+    color: black;
+    font-weight: bold;
+    margin: 10px;
+}
+
+.subtitulo{
+    font-size: 15px; 
+    color: black;
+    margin: 10px;
+
+}
+
+.formulario{
+    display:flex;
+    flex-direction:column;
+    gap:18px;
+    background-color: rgba(117, 117, 117, 0.493);
+    padding: 20px;
+    margin: 10px;
+    border-radius: 10px;
+    border-color: black;
+    border-width: 2px;
+    border-style: solid;
+}
+
+.botones {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+#mensaje-error {
+    color: #c0392b;
+    font-size: 14px;
+    font-weight: bold;
+    min-height: 1.2em;
+    margin: 0;
+}
+
+#pasos {
+    width: 100%;
+}
+
+.resultados{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 10px;
+    border-color: black;
+    border-width: 2px;
+    border-style: solid;
+}
