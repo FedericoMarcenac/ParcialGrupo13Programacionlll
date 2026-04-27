@@ -1,8 +1,3 @@
-
-# Project Title
-
-A brief description of what this project does and who it's for
-
 # Trabajo Practico: Calculadora de Descuentos Encadenados
 
 **Materia:** Programacion III  
